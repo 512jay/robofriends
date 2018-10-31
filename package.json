@@ -1,6 +1,18 @@
 {
   "name": "robofriends",
   "homepage": "https://512jay.github.io/robofriends",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-chrome-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
   "version": "0.1.0",
   "private": true,
   "dependencies": {
