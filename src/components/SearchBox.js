@@ -3,10 +3,9 @@ import React from 'react';
 const SearchBox = ({ searchfield, searchChange }) => {
     return (
         <div className='pa2'>
-        <label for="search" className="visuallyhidden"> Search: </label>
         <input 
             name='search'
-            id='search'
+            aria-label="Search"
             className='pa3 ba b--green bg-lightest-blue'
             type='search' 
             placeholder='search robots'
